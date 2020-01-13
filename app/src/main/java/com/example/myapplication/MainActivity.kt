@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         val list = mutableListOf(R.mipmap.ic_launcher, R.mipmap.ic_launcher,R.mipmap.ic_launcher,R.mipmap.ic_launcher,R.mipmap.ic_launcher, R.mipmap.ic_launcher, R.mipmap.ic_launcher)
 
         inflateLayout(list)
+        
 
         btnAddImage.setOnClickListener {
             list.add(R.drawable.amul)
